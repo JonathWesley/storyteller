@@ -1,0 +1,22 @@
+William _ is grabing a _ sword _.
+Phillip _ is grabing a _ boot _.
+William _ is atacking _ with sword _ Phillip _.
+Phillip _ has evaded _ William _.
+Phillip _ lost _ boot _.
+William _ is atacking _ with sword _ Phillip _.
+Phillip _ lost one life _.
+William _ lost _ sword _.
+Phillip _ is grabing _ first piece _.
+William _ is grabing a _ sword _.
+Phillip _ is grabing a _ shield _.
+William _ is atacking _ with sword _ Phillip _.
+Phillip _ has defended from _ William _.
+Phillip _ lost _ shield _.
+Phillip _ is grabing _ second piece _.
+William _ is atacking _ with sword _ Phillip _.
+Phillip _ lost one life _.
+William _ lost _ sword _.
+Phillip _ is grabing _ third piece _.
+William _ is grabing a _ sword _.
+Phillip _ crafted _ flag _.
+Phillip _ won _.

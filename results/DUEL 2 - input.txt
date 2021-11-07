@@ -1,0 +1,20 @@
+William is grabing a _ sword _.
+Phillip is grabing _ first piece _.
+William is atacking _ with sword _ Phillip _.
+Phillip lost one life _.
+William lost _ sword _.
+Phillip is grabing a _ shield _.
+William is grabing a _ sword _.
+Phillip is grabing _ second piece _.
+William is atacking _ with sword _ Phillip _.
+Phillip has broken _ shield _.
+Phillip lost _ shield _.
+Phillip lost one life _.
+William lost _ sword _.
+William is grabing a _ sword _.
+Phillip is grabing a _ boot _.
+William is atacking _ with sword _ Phillip _.
+Philip did not _ evade _.
+Phillip lost one life _.
+Phillip died _.
+William won _.
