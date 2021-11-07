@@ -2,6 +2,7 @@ import os
 import pickle
 import ilm.tokenize_util
 import gdown
+import time
 
 MODEL_DIR = 'ilm/models/'
 
@@ -31,9 +32,24 @@ model.eval()
 _ = model.to(device)
 
 # Create context
-while(True):
+
+
+# Using readlines()
+file = open('input.txt', 'r')
+lines = file.readlines()
+
+#while(True):
+fullText = ""
+context_input = ""
+textLine = ""
+#context_input = input("Enter the message: ")
+for line in lines:
+    textLine = line.strip()
+    print(textLine)
+
     context_input = ""
-    context_input = input("Enter the message: ")
+    context_input = fullText + textLine
+
     blanks_number = context_input.count('_')
 
     context = context_input.strip()
@@ -42,8 +58,9 @@ while(True):
 
     # Replace blanks with appropriate tokens from left to right
     _blank_id = ilm.tokenize_util.encode(' _', tokenizer)[0]
-    for i in range(0, blanks_number):
+    for i in range(0, blanks_number - 1):
         context_ids[context_ids.index(_blank_id)] = additional_tokens_to_ids['<|infill_word|>']
+    context_ids[context_ids.index(_blank_id)] = additional_tokens_to_ids['<|infill_sentence|>']
 
     from ilm.infer import infill_with_ilm
 
@@ -53,8 +70,10 @@ while(True):
         context_ids,
         num_infills=1)
 
-    print(ilm.tokenize_util.decode(generated[0], tokenizer))
+    fullText = ilm.tokenize_util.decode(generated[0], tokenizer)
 
-    file_object = open('sample.txt', 'a')
-    file_object.write(ilm.tokenize_util.decode(generated[0], tokenizer) + '\n')
-    file_object.close()
+    time.sleep(0.1)
+
+file_object = open('result-sentence-history.txt', 'w')
+file_object.write(fullText)
+file_object.close()

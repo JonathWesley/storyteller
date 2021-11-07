@@ -1,0 +1,18 @@
+Xavier is asking _ what the others can produce _
+Logan is telling _ Xavier that it can produce _ grounds _
+Xavier is _ getting _ grounds to make _ coffee _
+Logan heard _ Xavier _ wants _ grounds _
+Xavier _ wants _ grounds but Logan does not have it _
+Logan is _ getting _ beans to make _ grounds _
+Logan is asking _ what the others can produce _
+Xavier is telling _ Logan that it can produce _ coffee _
+Xavier is telling _ Logan that it can produce _ espresso _
+Xavier is telling _ Logan that it can produce _ water _
+Xavier is telling _ Logan that it can produce _ beans _
+Xavier heard _ Logan _ wants _ beans _
+Xavier is _ delivering _ beans to _ Logan _
+Logan _ now has _ beans _
+Logan is making _ grounds _
+Logan is _ delivering _ grounds to _ Xavier _
+Xavier _ now has _ grounds _
+Xavier is making _ coffee _
